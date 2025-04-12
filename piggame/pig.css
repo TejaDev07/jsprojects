@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+   
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(223, 106, 110);
+    color: #000;
+    font-family: 'Nunito',sans-serif;
+}
+
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 60vw;
+}
+section{
+    position: relative;
+    height:70vh;
+    width:60vw;
+    display: flex;
+    align-items: center;
+}
+
+.Player1{
+    background-color: rgb(229, 156, 181);
+    display: flex;
+    flex-direction: column;
+    
+}
+.Player2{
+    background-color: rgb(174, 65, 103);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+section h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.score {
+    font-size:70px;
+    color: rgb(235, 35, 148);
+}
+
+section div{
+    height:100px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 0, 76);
+    position: absolute;
+    bottom:50px;
+    border-radius: 10px;
+    color:aliceblue;
+    font-size: 30px;
+    gap: 10px;
+}
+
+.action{
+    position:absolute;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newgame{
+    background-color: rgb(196, 204, 211);
+    height:35px;
+    width:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius:20px;
+    border: none;
+}
+
+
+.rolldice{
+    background-color: rgb(196, 204, 211);
+    height:35px;
+    width:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   position:absolute;
+   bottom:150px;
+    border-radius:20px;
+    border: none;
+}
+
+.hold{
+    background-color: rgb(196, 204, 211);
+    height:35px;
+    width:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    bottom:100px;
+    border-radius:20px;
+    border: none;
+}
+
+.dice{
+    height:90px;
+    width: 90px;
+    position: absolute;
+    top: 120px;
+    border-radius:12px;
+    display: none;
+}
